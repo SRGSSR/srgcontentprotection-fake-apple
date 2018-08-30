@@ -8,6 +8,3 @@
 
 // Official version number.
 FOUNDATION_EXPORT NSString *SRGContentProtectionMarketingVersion(void);
-
-// Public headers.
-#import "AVURLAsset+SRGContentProtection.h"
