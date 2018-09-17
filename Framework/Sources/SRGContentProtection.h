@@ -12,7 +12,7 @@ FOUNDATION_EXPORT NSString *SRGContentProtectionMarketingVersion(void);
 @interface NSBundle (SRGContentProtectionVersion)
 
 /**
- *  Return `YES` iff run in a public (open source) setup. Always `NO`.
+ *  Return `YES` iff run in a public (open source) setup. Always `YES`.
  */
 + (BOOL)srg_contentProtectionIsPublic;
 
