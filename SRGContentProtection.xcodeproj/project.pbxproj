@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F2E03F62150DB4700737B3C /* SRGContentProtectionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E03F42150DB4700737B3C /* SRGContentProtectionConstants.m */; };
-		6F2E03F72150DB4700737B3C /* SRGContentProtectionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */; };
+		6F2E03F72150DB4700737B3C /* SRGContentProtectionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B67F2137CB0B00F8A5E2 /* SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B67D2137CB0A00F8A5E2 /* SRGContentProtection.m */; };
 		6FF3B6802137CB0B00F8A5E2 /* SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B67E2137CB0A00F8A5E2 /* SRGContentProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B6862137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B6822137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m */; };
