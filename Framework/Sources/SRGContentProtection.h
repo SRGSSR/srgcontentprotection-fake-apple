@@ -9,11 +9,5 @@
 // Official version number.
 FOUNDATION_EXPORT NSString *SRGContentProtectionMarketingVersion(void);
 
-@interface NSBundle (SRGContentProtectionVersion)
-
-/**
- *  Return `YES` iff run in a public (open source) setup. Always `YES`.
- */
-+ (BOOL)srg_contentProtectionIsPublic;
-
-@end
+//  Return `YES` iff run in a public (open source) setup. Always `YES`.
+FOUNDATION_EXPORT BOOL SRGContentProtectionIsPublic(void);
