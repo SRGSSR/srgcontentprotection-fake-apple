@@ -12,7 +12,7 @@
 		6FF3B67F2137CB0B00F8A5E2 /* SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B67D2137CB0A00F8A5E2 /* SRGContentProtection.m */; };
 		6FF3B6802137CB0B00F8A5E2 /* SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B67E2137CB0A00F8A5E2 /* SRGContentProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B6862137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B6822137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m */; };
-		6FF3B6872137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6832137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h */; };
+		6FF3B6872137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6832137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B6882137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6842137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h */; };
 		6FF3B6892137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B6852137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m */; };
 		6FF3B68C2137CD7500F8A5E2 /* SRGContentProtection.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3B6752137C77300F8A5E2 /* SRGContentProtection.bundle */; };
