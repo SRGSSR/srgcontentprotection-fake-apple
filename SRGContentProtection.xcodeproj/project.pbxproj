@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2E03F62150DB4700737B3C /* SRGContentProtectionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E03F42150DB4700737B3C /* SRGContentProtectionConstants.m */; };
+		6F2E03F72150DB4700737B3C /* SRGContentProtectionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B67F2137CB0B00F8A5E2 /* SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B67D2137CB0A00F8A5E2 /* SRGContentProtection.m */; };
 		6FF3B6802137CB0B00F8A5E2 /* SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B67E2137CB0A00F8A5E2 /* SRGContentProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B6862137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B6822137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m */; };
-		6FF3B6872137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6832137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h */; };
+		6FF3B6872137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6832137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF3B6882137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3B6842137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h */; };
 		6FF3B6892137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3B6852137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m */; };
 		6FF3B68C2137CD7500F8A5E2 /* SRGContentProtection.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6FF3B6752137C77300F8A5E2 /* SRGContentProtection.bundle */; };
@@ -30,6 +32,8 @@
 		6F00F7B42148DD4F0016E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0EB53120FC7F58009C02CF /* SRGContentProtection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRGContentProtection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0EB53F20FC7FA9009C02CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2E03F42150DB4700737B3C /* SRGContentProtectionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRGContentProtectionConstants.m; sourceTree = "<group>"; };
+		6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRGContentProtectionConstants.h; sourceTree = "<group>"; };
 		6FF3B6752137C77300F8A5E2 /* SRGContentProtection.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRGContentProtection.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF3B67D2137CB0A00F8A5E2 /* SRGContentProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRGContentProtection.m; sourceTree = "<group>"; };
 		6FF3B67E2137CB0A00F8A5E2 /* SRGContentProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRGContentProtection.h; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				6FF3B6812137CB3800F8A5E2 /* Categories */,
 				6FF3B67E2137CB0A00F8A5E2 /* SRGContentProtection.h */,
 				6FF3B67D2137CB0A00F8A5E2 /* SRGContentProtection.m */,
+				6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */,
+				6F2E03F42150DB4700737B3C /* SRGContentProtectionConstants.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -105,10 +111,10 @@
 		6FF3B6812137CB3800F8A5E2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				6FF3B6822137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m */,
 				6FF3B6832137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h */,
-				6FF3B6842137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h */,
 				6FF3B6852137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m */,
+				6FF3B6842137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h */,
+				6FF3B6822137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -120,6 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2E03F72150DB4700737B3C /* SRGContentProtectionConstants.h in Headers */,
 				6FF3B6872137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.h in Headers */,
 				6FF3B6802137CB0B00F8A5E2 /* SRGContentProtection.h in Headers */,
 				6FF3B6882137CB3800F8A5E2 /* NSBundle+SRGContentProtection.h in Headers */,
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF3B6862137CB3800F8A5E2 /* NSBundle+SRGContentProtection.m in Sources */,
+				6F2E03F62150DB4700737B3C /* SRGContentProtectionConstants.m in Sources */,
 				6FF3B67F2137CB0B00F8A5E2 /* SRGContentProtection.m in Sources */,
 				6FF3B6892137CB3800F8A5E2 /* AVURLAsset+SRGContentProtection.m in Sources */,
 			);
