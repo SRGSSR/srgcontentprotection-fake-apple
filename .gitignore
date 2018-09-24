@@ -3,7 +3,7 @@
 *.xcscmblueprint
 xcuserdata
 
-archive
-build
+/archive
+/build
 
-Carthage
+/Carthage
