@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  The framework resource bundle.
  */
-+ (NSBundle *)srg_contentProtectionBundle;
+@property (class, nonatomic, readonly) NSBundle *srg_contentProtectionBundle;
 
 @end
 
