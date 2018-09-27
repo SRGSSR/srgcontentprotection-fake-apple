@@ -20,8 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)srg_assetWithURL:(NSURL *)URL options:(nullable NSDictionary<SRGAssetOption, id> *)options;
 + (instancetype)srg_assetWithURL:(NSURL *)URL;
-+ (instancetype)srg_assetWithURL:(NSURL *)URL licenseURL:(nullable NSURL *)licenseURL options:(nullable NSDictionary<SRGAssetOption, id> *)options;
-+ (instancetype)srg_assetWithURL:(NSURL *)URL licenseURL:(nullable NSURL *)licenseURL;
++ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(nullable NSURL *)certificateURL options:(nullable NSDictionary<SRGAssetOption, id> *)options;
++ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(nullable NSURL *)certificateURL;
 
 @end
 
