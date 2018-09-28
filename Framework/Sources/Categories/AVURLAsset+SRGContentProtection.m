@@ -10,12 +10,22 @@
 
 #pragma mark Class methods
 
++ (instancetype)srg_assetWithURL:(NSURL *)URL options:(NSDictionary *)options
+{
+    return [self assetWithURL:URL];
+}
+
 + (instancetype)srg_assetWithURL:(NSURL *)URL
 {
     return [self assetWithURL:URL];
 }
 
-+ (instancetype)srg_assetWithURL:(NSURL *)URL licenseURL:(NSURL *)licenseURL
++ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(NSURL *)certificateURL options:(NSDictionary<SRGAssetOption,id> *)options
+{
+    return [self assetWithURL:URL];
+}
+
++ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(NSURL *)certificateURL
 {
     return [self assetWithURL:URL];
 }
