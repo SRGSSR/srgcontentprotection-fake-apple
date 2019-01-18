@@ -6,7 +6,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NSString * SRGAssetOption NS_TYPED_ENUM;
+typedef NSString * SRGResourceLoaderOption NS_TYPED_ENUM;
 
-OBJC_EXPORT NSString * const SRGAssetOptionDiagnosticServiceNameKey;
-OBJC_EXPORT NSString * const SRGAssetOptionDiagnosticReportNameKey;
+OBJC_EXPORT NSString * const SRGResourceLoaderOptionDiagnosticServiceNameKey;
+OBJC_EXPORT NSString * const SRGResourceLoaderOptionDiagnosticReportNameKey;

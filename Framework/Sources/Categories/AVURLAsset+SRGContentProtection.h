@@ -18,10 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  Equivalent to `+[AVURLAsset assetWithURL:]`.
  */
-+ (instancetype)srg_assetWithURL:(NSURL *)URL options:(nullable NSDictionary<SRGAssetOption, id> *)options;
-+ (instancetype)srg_assetWithURL:(NSURL *)URL;
-+ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(nullable NSURL *)certificateURL options:(nullable NSDictionary<SRGAssetOption, id> *)options;
-+ (instancetype)srg_assetWithURL:(NSURL *)URL certificateURL:(nullable NSURL *)certificateURL;
++ (instancetype)srg_akamaiTokenProtectedAssetWithURL:(NSURL *)URL options:(nullable NSDictionary<SRGResourceLoaderOption, id> *)options;
++ (instancetype)srg_fairPlayProtectedAssetWithURL:(NSURL *)URL certificateURL:(NSURL *)certificateURL options:(nullable NSDictionary<SRGResourceLoaderOption, id> *)options;
 
 @end
 
