@@ -32,6 +32,7 @@
 		6F00F7B42148DD4F0016E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0EB53120FC7F58009C02CF /* SRGContentProtection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRGContentProtection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0EB53F20FC7FA9009C02CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0EE5892316BACF00328674 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 		6F2E03F42150DB4700737B3C /* SRGContentProtectionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRGContentProtectionConstants.m; sourceTree = "<group>"; };
 		6F2E03F52150DB4700737B3C /* SRGContentProtectionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRGContentProtectionConstants.h; sourceTree = "<group>"; };
 		6FF3B6752137C77300F8A5E2 /* SRGContentProtection.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRGContentProtection.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +93,7 @@
 				6FF3B66C2137C66800F8A5E2 /* Sources */,
 				6F00F7B32148DD4F0016E664 /* Resources */,
 				6F0EB53F20FC7FA9009C02CF /* Info.plist */,
+				6F0EE5892316BACF00328674 /* Framework.xcconfig */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -319,13 +321,15 @@
 				MARKETING_VERSION = 1.2.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = "Debug-static";
 		};
 		6F0C98DB2121E14000073AB6 /* Debug-static */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -342,8 +346,6 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.SRGContentProtection;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = "Debug-static";
@@ -400,14 +402,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 1.2.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = "Release-static";
 		};
 		6F0C98DF2121E14600073AB6 /* Release-static */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -424,8 +428,6 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.SRGContentProtection;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-static";
@@ -489,8 +491,9 @@
 				MARKETING_VERSION = 1.2.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -546,14 +549,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 1.2.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		6F0EB53A20FC7F58009C02CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -568,14 +573,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.SRGContentProtection;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		6F0EB53B20FC7F58009C02CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -590,20 +594,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.SRGContentProtection;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		6FF3B6792137C77300F8A5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGContentProtection-resources";
 				PRODUCT_NAME = SRGContentProtection;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -612,12 +614,12 @@
 		};
 		6FF3B67A2137C77300F8A5E2 /* Debug-static */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGContentProtection-resources";
 				PRODUCT_NAME = SRGContentProtection;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -626,12 +628,12 @@
 		};
 		6FF3B67B2137C77300F8A5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGContentProtection-resources";
 				PRODUCT_NAME = SRGContentProtection;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -640,12 +642,12 @@
 		};
 		6FF3B67C2137C77300F8A5E2 /* Release-static */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0EE5892316BACF00328674 /* Framework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGContentProtection-resources";
 				PRODUCT_NAME = SRGContentProtection;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
