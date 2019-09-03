@@ -1,6 +1,6 @@
-<p align="center"><img src="README-images/logo.png"/></p>
+[![SRG Content Protection Fake logo](README-images/logo.png)](https://github.com/SRGSSR/srgcontentprotection-fake-ios)
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![GitHub releases](https://img.shields.io/github/v/release/SRGSSR/srgcontentprotection-fake-ios)](https://github.com/SRGSSR/srgcontentprotection-fake-ios/releases) [![platform](https://img.shields.io/badge/platfom-ios%20%7C%20tvos-blue)](https://github.com/SRGSSR/srgcontentprotection-fake-ios) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![GitHub license](https://img.shields.io/github/license/SRGSSR/srgcontentprotection-fake-ios)](https://github.com/SRGSSR/srgcontentprotection-fake-ios/blob/master/LICENSE)
 
 ## About
 
