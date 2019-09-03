@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08CED68D231EF31400C2C6DA /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		6F00F7B42148DD4F0016E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F0EB53120FC7F58009C02CF /* SRGContentProtection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRGContentProtection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0EB53F20FC7FA9009C02CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		6F0EB52720FC7F58009C02CF = {
 			isa = PBXGroup;
 			children = (
+				08CED68D231EF31400C2C6DA /* Common.xcconfig */,
 				6F0EB53C20FC7FA9009C02CF /* Framework */,
 				6F0EB53220FC7F58009C02CF /* Products */,
 			);
