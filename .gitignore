@@ -7,3 +7,8 @@ xcuserdata
 /build
 
 /Carthage
+
+/fastlane/*.xml
+
+/vendor
+/.bundle
