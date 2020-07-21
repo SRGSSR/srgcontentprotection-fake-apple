@@ -6,7 +6,7 @@
 
 #import "SRGContentProtectionConstants.h"
 
-#import <AVFoundation/AVFoundation.h>
+@import AVFoundation;
 
 NS_ASSUME_NONNULL_BEGIN
 

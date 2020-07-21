@@ -6,11 +6,9 @@
 
 #import "SRGContentProtection.h"
 
-#import "NSBundle+SRGContentProtection.h"
-
 NSString *SRGContentProtectionMarketingVersion(void)
 {
-    return NSBundle.srg_contentProtectionBundle.infoDictionary[@"CFBundleShortVersionString"];
+    return @MARKETING_VERSION;
 }
 
 BOOL SRGContentProtectionIsPublic(void)
